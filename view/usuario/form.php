@@ -24,18 +24,19 @@
 </div>
 
 <div class="center">
-  <form class="col s6">
+  <form class="col s6" action="../../model/save.php" method="POST">
     <div class="row">
-      <input placeholder="Nome" name="name" type="text" class="validate">
-      <input placeholder="CEP" id="cep" name="cep" type="text" class="validate">
-      <input placeholder="Estado" id="uf" name="state" type="text" class="validate">
-      <input placeholder="Cidade" id="cidade" name="cidade" type="text" class="validate">
-      <input placeholder="Bairro" id="bairro" name="district" type="text" class="validate">
-      <input placeholder="Rua" id="rua" name="street" type="text" class="validate">
-      <input placeholder="Número" name="number" type="text" class="validate">
+      <input placeholder="Nome" name="name" type="text" class="validate" required>
+      <input placeholder="CEP" id="cep" name="cep" type="text" class="validate" required>
+      <input placeholder="Estado" id="uf" name="state" type="text" class="validate" required>
+      <input placeholder="Cidade" id="cidade" name="city" type="text" class="validate" required>
+      <input placeholder="Bairro" id="bairro" name="district" type="text" class="validate" required>
+      <input placeholder="Rua" id="rua" name="street" type="text" class="validate" required>
+      <input placeholder="Número" name="number" type="text" class="validate" required>
       <input placeholder="Complemento (Bloco, apartamento, etc.)" name="complement" type="text" class="validate">
+      <input placeholder="Telefone" name="phone" type="text" class="validate" required>
       <button type="submit" class="btn green right">Salvar</button>
-      <a href="#" class="btn red left">Voltar</a>
+      <a href="/tratador-endereco-php/view/index.php" class="btn red left">Voltar</a>
     </div>
   </form>
   </div>
