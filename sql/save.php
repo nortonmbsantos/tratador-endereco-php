@@ -39,5 +39,5 @@ foreach($phones as $phone){
 }
 }
 
-header("Location:/tratador-endereco-php/user/list.php");
+header("Location:/tratador-endereco-php/view/user/list.php");
 ?>
