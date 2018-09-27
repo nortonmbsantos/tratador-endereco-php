@@ -1,11 +1,5 @@
 <?php 
-
-$db_host = 'localhost';
-$db_port = '3306';
-$db_username = 'root';
-$db_password = '';
-$db_primaryDatabase = 'php_address';
-
+include_once("db_conf.php");
 $dbConn = new mysqli($db_host, $db_username, $db_password, $db_primaryDatabase);
 
 $query = "SELECT ID FROM PERSON";

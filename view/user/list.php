@@ -1,5 +1,5 @@
 <?php
-    include("../../model/list.php");
+    include("../../sql/list.php");
 ?>
 
 <html>
@@ -50,11 +50,13 @@
                 <td><?= $user["STREET"] ?></td>
                 <td><?= $user["ADDRESS_NUMBER"] ?></td>
                 <td><?= $user["COMPLEMENT"] ?></td>
-                <td><a href="../../model/delete.php?id=<?php echo $user["ID"]; ?>" 
+                <td><a href="../../sql/delete.php?id=<?php echo $user["ID"]; ?>" 
                 onclick="return confirm('Deseja mesmo deletar?');" 
                 class="btn red">deletar</a>
                 <a href="show.php?id=<?php echo $user["ID"]; ?>"  
                 class="btn">Ver</a>
+                <a href="edit.php?id=<?php echo $user["ID"]; ?>"  
+                class="btn">Editar</a>
                 </td>       
             </tr>
             <?php } ?>

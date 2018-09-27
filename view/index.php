@@ -13,8 +13,7 @@
          
 
 <div class="row container">
-      <h1>Index</h1>
-      <a href="view/form.html" class="btn">Formulário de Cadastro</a>    
+      <h1>Index</h1>   
     </div>
 </body>
 

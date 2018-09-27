@@ -16,6 +16,6 @@ $result = mysqli_query($dbConn, $query_delete);
 $query_delete = "DELETE FROM PERSON WHERE ID = '$id'";
 $result = mysqli_query($dbConn, $query_delete);
 
-header("Location:/tratador-endereco-php/view/usuario/list.php");
+header("Location:/tratador-endereco-php/view/user/list.php");
 
 ?>
