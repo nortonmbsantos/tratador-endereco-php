@@ -25,6 +25,14 @@ $query_update = "UPDATE PERSON SET
 
 mysqli_query($dbConn, $query_update);
 
+$query_delete_phone = "DELETE FROM PHONES WHERE PERSON_ID = '$id'";
+$result = mysqli_query($dbConn, $query_delete_phone);
+
+foreach($phones as $phone){
+    $query_save_phone = "INSERT INTO PHONES(PERSON_ID, PHONE_NUMBER) VALUES ('$id', '$phone')";    
+    $result = mysqli_query($dbConn, $query_save_phone);
+}
+
 header("Location:/tratador-endereco-php/view/user/list.php");
 
 ?>

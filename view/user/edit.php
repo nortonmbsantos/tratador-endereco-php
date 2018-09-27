@@ -39,7 +39,7 @@ include('../../sql/edit.php');
          value="<?= $person['COMPLEMENT']; ?>">
         <div id="more-phones">
           <?php foreach($phones as $phone){ ?>
-            <input placeholder="Telefone" name="phone[]" type="text" class="validate" maxlength="11" value="<?= $phone["PHONE_NUMBER"] ?>" required>
+            <input placeholder="Telefone" name="phone[]" type="text" class="validate" maxlength="11" value="<?= $phone["PHONE_NUMBER"] ?>">
           <?php } ?>
         </div>
         <div class="col l12">
