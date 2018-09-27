@@ -13,7 +13,10 @@
          
 
 <div class="row container">
-      <h1>Index</h1>   
+      <h1>Index</h1>
+      <p> Site de cadastro de usuários com endereço e telefones; </p>
+      <p> Para acessar à pagina de cadastro ou de listagem de usuários cadastrados, utilize a barra lateral; </p>
+      <p> Para editar, deletar ou vizualizar um cadastro acesse a listagem. </p>
     </div>
 </body>
 

@@ -54,7 +54,7 @@
                 onclick="return confirm('Deseja mesmo deletar?');" 
                 class="btn red">deletar</a>
                 <a href="show.php?id=<?php echo $user["ID"]; ?>"  
-                class="btn">Ver</a>
+                class="btn">Vizualizar</a>
                 <a href="edit.php?id=<?php echo $user["ID"]; ?>"  
                 class="btn">Editar</a>
                 </td>       
