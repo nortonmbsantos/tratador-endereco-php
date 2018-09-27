@@ -1,4 +1,4 @@
-# APlicação de CRUD usuário, tratador de endereço por cep e adição de multiplos telefones
+# Aplicação em php: CRUD usuário com endereço e telefone, tratador de endereço por cep e adição de multiplos telefones
 Teste proposto pela empresa k13. Para este sistema foram utilizados:
 * PHP
 * [Materialize (JS e CSS)](https://materializecss.com)
